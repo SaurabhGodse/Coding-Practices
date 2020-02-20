@@ -7,6 +7,7 @@ bool isanagram(string str1, string str2)
 {
 	if(str1.size() != str2.size())
 		return false;
+	
     int freq1[26] = {0}, freq2[26] = {0};
     for(char c : str1)
     {
