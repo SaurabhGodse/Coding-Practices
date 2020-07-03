@@ -7,24 +7,6 @@ def incrementEach():
 	for stack_ele in stack:
 		window_size[stack_ele] += 1
 
-# for ele in arr:
-# 	if(stack == []):
-# 		stack.append(ele)
-# 		window_size[ele] = 1
-# 	elif(stack[-1] < ele):
-# 		incrementEach()
-# 		stack.append(ele)
-# 		window_size[ele] = 1
-# 	elif(stack[-1] >= ele):
-# 		ws = window_size[stack[-1]] + 1
-# 		stack.pop()
-# 		while(stack != [] and stack[-1] >= ele):
-# 			ws = window_size[stack[-1]] + 1
-# 			stack.pop()
-# 		incrementEach()
-# 		stack.append(ele)
-# 		window_size[ele] = ws
-# print(window_size)
 
 for i in range(n):
 	if(stack == []):
